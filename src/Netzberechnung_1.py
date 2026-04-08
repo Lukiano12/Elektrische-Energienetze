@@ -56,7 +56,7 @@ U_LL4 = 2400
 S1_3ph = 300000
 Q1_3ph = 180000
 S2_3ph = 240000
-P2_3ph = 144000
+P2_3ph = 144000     
 
 P1_3ph = math.sqrt(S1_3ph**2 - Q1_3ph**2)
 Q2_3ph = -math.sqrt(S2_3ph**2 - P2_3ph**2)
